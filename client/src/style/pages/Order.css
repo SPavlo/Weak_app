@@ -1,0 +1,72 @@
+.use-btn1{
+    background-color: white;
+    width: 47%;
+    align-items: center;
+    padding: 3px;
+    color: black;
+    font-size: 14px;
+    border-radius: 7px;
+    border:1px solid #D9C6F3;
+    transition: all 0.3s ease;
+}
+.use-btn2{
+    background-color: black;
+    width: 47%;
+    align-items: center;
+
+    color: white;
+    font-size: 14px;
+    border-radius: 7px;
+    border:1px solid #D9C6F3;
+    transition: all 0.3s ease;
+}
+
+.use-btn1:hover{
+    background-color: black;
+    color: white;
+
+}
+.use-btn2:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.data-pick{
+    margin-top: 20px;
+    text-align: center;
+}
+.order-title{
+    margin-bottom: 10px;
+    display: grid;
+    grid-template: repeat(1,40px) / repeat(5,1fr);
+    justify-items: center;
+    font-weight: 700;
+    color: black;
+    font-size: 20px;
+    transition: all 0.3s ease;
+
+
+}
+
+.order{
+    margin: 10px 0;
+    display: grid;
+    grid-template: repeat(1,80px) / repeat(5,1fr);
+    justify-items: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+
+
+}
+.order:hover{
+    transform: scale(1.02);
+}
+.order-item{
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+}

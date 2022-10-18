@@ -1,0 +1,74 @@
+.order-info{
+    width: 366px;
+    background-color: #D9C6F3;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.orderinfo-item{
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    justify-content: space-between;
+    margin: 9px auto 16px;
+    width:339px;
+
+}
+.orderinfo-item1{
+    text-align: center;
+    margin: auto;
+    max-width: 110px;
+    padding: 1px;
+}
+.orderinfo-item2{
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding:5px 20px;
+    width: 60%;
+}
+.content h4{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.order-btns{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto auto 30px;
+    padding-bottom: 30px ;
+}
+.order-upd{
+
+    background-color: white;
+    width: 47%;
+    align-items: center;
+    padding: 3px;
+    color: black;
+    font-size: 21px;
+    border-radius: 7px;
+    border:1px solid black;
+    transition: all 0.3s ease;
+}
+.order-del{
+    background-color: black;
+    width: 49%;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-size: 21px;
+    border-radius: 7px;
+    border:1px solid black;
+    transition: all 0.3s ease;
+}
+.order-del:hover{
+    color: black;
+    background-color: white;
+
+}
+.order-upd:hover{
+    color: white;
+    background-color: black;
+}

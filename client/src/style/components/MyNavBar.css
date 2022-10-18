@@ -1,0 +1,38 @@
+.nav-bar{
+    width: 100%;
+    background-color: black;
+
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.nav-item{
+    padding: 10px 0;
+    display: flex;
+
+}
+.logo{
+    padding: 0 10px;
+    font-size: 40px;
+    color: white;
+}
+.nav-link-item{
+    color: white;
+    font-size: 19px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+.nav-link-item:hover{
+    color: #D9C6F3;
+    text-decoration: none;
+}
+.nav-link-item:focus{
+    color: #D9C6F3;
+    text-decoration: none;
+}

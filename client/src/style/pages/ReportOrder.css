@@ -1,0 +1,41 @@
+.daterange-box{
+    width: 30%;
+    margin: 130px auto auto;
+    background-color: #D9C6F3;
+    border-radius: 20px;
+    padding: 20px;
+    height: 40%;
+}
+
+
+.daterange-box h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.daterange-plot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.daterange-plot button{
+    margin: 20px;
+    font-size: 22px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px black solid;
+    transition: all 0.3s ease;
+
+
+}
+.daterange-plot button:hover{
+    background-color: black;
+    color: white;
+
+}
+.top-box{
+    width: 60%;
+    text-align: center;
+    margin-top: 40px;
+}
